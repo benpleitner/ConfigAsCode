@@ -1,0 +1,31 @@
+{
+  "$id" : "asdfasfasdf",
+  "$type" : "https://schema.yext.cloud/config/km/sample-entity",
+  "content" : {
+    "address" : {
+      "line1" : "4 TX Ave",
+      "city" : "Austin",
+      "region" : "TX",
+      "postalCode" : "78752",
+      "countryCode" : "US"
+    },
+    "addressHidden" : false,
+    "name" : "TX Business aaaa",
+    "c_m4linkedEntity" : [ "newbbb1" ],
+    "featuredMessage" : {
+      "description" : "aaaab"
+    },
+    "isoRegionCode" : "TX",
+    "mainPhone" : "+19792222222",
+    "timezone" : "America/Chicago",
+    "yextDisplayCoordinate" : {
+      "latitude" : 30.2971464,
+      "longitude" : -97.7290393
+    },
+    "yextRoutableCoordinate" : {
+      "latitude" : 30.29758,
+      "longitude" : -97.729965
+    }
+  },
+  "entityType" : "location"
+}

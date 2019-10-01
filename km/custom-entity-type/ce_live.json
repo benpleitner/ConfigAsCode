@@ -1,0 +1,8 @@
+{
+  "$id" : "ce_live",
+  "$type" : "https://schema.yext.cloud/config/km/custom-entity-type",
+  "apiName" : "ce_live",
+  "description" : "created custom entity type to text field fix",
+  "enabled" : false,
+  "name" : "test_field_fix"
+}
