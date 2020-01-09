@@ -1,0 +1,35 @@
+{
+  "$id": "person",
+  "$type": "https://schema.yext.com/config/km/custom-entity-type",
+  "apiName": "ce_person",
+  "description": "",
+  "displayName": "person",
+  "enabled": true,
+  "entry": [
+    {
+      "id": "location.business_name",
+      "required": true
+    },
+    {
+      "id": "customStructField",
+      "required": false
+    },
+    {
+      "id": "workplace",
+      "required": true
+    },
+    {
+      "id": "location.folder_location",
+      "required": false
+    },
+    {
+      "id": "location.labels",
+      "required": false
+    },
+    {
+      "id": "location.store_id",
+      "required": true
+    }
+  ],
+  "pluralDisplayName": "people"
+}

@@ -1,0 +1,11 @@
+{
+  "$id": "location",
+  "$type": "https://schema.yext.com/config/km/built-in-entity-type",
+  "enabled": true,
+  "entry": [
+    {
+      "id": "customStructField",
+      "required": false
+    }
+  ]
+}

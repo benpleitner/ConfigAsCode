@@ -1,0 +1,36 @@
+{
+  "$id": "structfieldtype",
+  "$type": "https://schema.yext.com/config/km/custom-field-type",
+  "apiName": "c_structfieldtype",
+  "description": "A custom struct field type.",
+  "displayName": "structFieldType",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "displayName": "numberSubfield",
+          "isRequired": true,
+          "name": "numbersubfield",
+          "type": {
+            "decimalType": {
+              "maxValue": "25",
+              "minValue": "0"
+            }
+          },
+          "typeId": "type.decimal"
+        },
+        {
+          "displayName": "textSubfield",
+          "isRequired": false,
+          "name": "textsubfield",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE"
+            }
+          },
+          "typeId": "type.string"
+        }
+      ]
+    }
+  }
+}

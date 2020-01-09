@@ -1,0 +1,24 @@
+{
+  "$id": "workplace",
+  "$type": "https://schema.yext.com/config/km/custom-field",
+  "displayName": "workplace",
+  "apiName": "c_workplace",
+  "description": "The location where a person works",
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE",
+  "typeId": "type.list",
+  "type": {
+    "listType": {
+      "maxLength": 1,
+      "minLength": 1,
+      "type": {
+        "entityReferenceType": {
+          "supportedEntityTypeIds": [
+            "location"
+          ]
+        }
+      },
+      "typeId": "type.entity_reference"
+    }
+  }
+}
