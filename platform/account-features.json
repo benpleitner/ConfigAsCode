@@ -1,7 +1,5 @@
 {
   "$type": "https://schema.yext.com/config/platform/account-features",
-  "enabled": [
-    "Pages for Custom Entities"
-  ],
+  "enabled": [],
   "disabled": []
 }
