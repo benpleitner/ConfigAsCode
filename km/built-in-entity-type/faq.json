@@ -1,5 +1,5 @@
 {
   "$id": "faq",
-  "$type": "https://schema.yext.com/config/km/built-in-entity-type",
+  "$schema": "https://schema.yext.com/config/km/built-in-entity-type",
   "enabled": false
 }
